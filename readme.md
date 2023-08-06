@@ -24,3 +24,82 @@ Trip cost = car_object.route_object.price --> in case the Non-Subscribers passen
 
 **Note that: The function used to reserve a car to a passenger should throw an exception if the maximum capacity of the car was equal to zero In.**
 
+
+
+
+---
+
+
+#### Outputs:
+
+```bash
+
+# Non-Passenger who applied coupon
+<-- Passenger Details -->
+Passenger Name: Salem
+Passenger ID: 22222
+<-- Car Details -->
+Reserved Car Code: BMW-M892131
+Car Current capacity: 3
+<-- Pickup Details -->
+Street Name: Malaz Dist.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Destination Details -->
+Street Name: Olaya, North.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Trip Cost -->
+   Passenger Type: Non Subscriber
+   Trip Original Price: 56.0 SAR
+   After 10% discount Used Coupon (JAVA). Final Price: 50.4 SAR
+
+
+# Non-Passenger who don't have coupon
+<-- Passenger Details -->
+Passenger Name: Mohammed
+Passenger ID: 11234455
+<-- Car Details -->
+Reserved Car Code: BMW-M892131
+Car Current capacity: 3
+<-- Pickup Details -->
+Street Name: Malaz Dist.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Destination Details -->
+Street Name: Olaya, North.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Trip Cost -->
+   Passenger Type: Non Subscriber
+   Trip Original Price: 56.0 SAR
+   No Coupon Was Applied. Final Price: 56.0 SAR
+
+
+# Subscriber Passenger 
+<-- Passenger Details -->
+Passenger Name: Abdullah
+Passenger ID: 1231312
+<-- Car Details -->
+Reserved Car Code: Audi-R82131831
+Car Current capacity: 4
+<-- Pickup Details -->
+Street Name:  Tahliah Street.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Destination Details -->
+Street Name: Olaya, North.
+City: Riyadh
+Country: Saudi Arabia
+zip code: 0000000
+<-- Trip Cost -->
+   Passenger Type: Subscriber (50% discount)
+   Trip Original Price: 40.0 SAR
+   After 50% discount. Final Price: 20.0 SAR
+
+```
